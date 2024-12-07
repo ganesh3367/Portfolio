@@ -1,0 +1,102 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.page {
+    height: 100vh; 
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    transition: background 0.5s ease; 
+    position: relative; 
+    overflow: hidden; 
+}
+
+#page1 { 
+    background: linear-gradient(to bottom, #e0e7ff, #94b2fe); 
+}
+
+#page1 .image-container {
+    position: absolute; 
+    top: 0;
+    left: 0;
+    width: 100%; 
+    height: 100%; 
+    background-image: url('https://img.freepik.com/free-photo/top-view-desk-concept-with-laptop_23-2148236828.jpg?t=st=1733505203~exp=1733508803~hmac=27ff66f797b24bf799dcb9a27e04ce03f79fbaf3a686be5b3f6ab97cb3b3ac55&w=2000'); 
+    background-size: cover; 
+    background-position: center; 
+    opacity: 0.4; 
+    z-index: 1; 
+}
+
+#content {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    z-index: 2; 
+    width: 100%; 
+    padding-left: 30%; 
+}
+
+#textdiv {
+    text-align: center; 
+    z-index: 2; 
+    max-width: 650px;
+}
+
+#headingdiv h1 {
+    font-size: 2.5em; 
+    margin: 0; 
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#paradiv p {
+    font-size: 1.2em;
+    line-height: 1.6; 
+    margin: 20px 0; 
+    padding: 0 10px; 
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#paradiv {
+    align-items: center;
+    height: min-content;
+}
+
+#imgdiv {
+    flex-shrink: 0; 
+    margin-left: 30px; 
+    height: auto;
+}
+
+#imgdiv img {
+    width: 300px; 
+    height: auto; 
+    max-height: 80vh; 
+    border: 5px solid #8ba0e1; 
+    border-radius: 10px; 
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2); 
+    transition: transform 0.3s; 
+}
+
+#imgdiv img:hover {
+    transform: scale(1.05); 
+}
+
+#page2 { 
+    background: linear-gradient(to bottom, rgba(230, 230, 230, 0.8), rgba(200, 200, 200, 0.8)); 
+}
+
+#page3 { 
+    background: linear-gradient(to bottom, #d3d9f5, #a ```css
+#b8e0f7); 
+}
+
+#page4 { 
+    background: linear-gradient(to bottom, #f0f4ff, #c0d6ff); 
+}
+
+#page5 { 
+    background: linear-gradient(to bottom, #e6f7ff, #99ccff); 
+}
